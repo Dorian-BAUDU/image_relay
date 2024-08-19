@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>image_relay</name>
+  <version>0.0.0</version>
+  <description>Examples for m3t_tracker_ros package</description>
+  <author email="krzysztof.wojciechowski@laas.fr">Krzysztof Wojciechowski</author>
+  <maintainer email="guilhem.saurel@laas.fr">Guilhem Saurel</maintainer>
+  <license>BSD</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>python-numpy-quaternion-pip</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
